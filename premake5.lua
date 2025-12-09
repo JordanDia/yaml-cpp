@@ -2,7 +2,7 @@ project "yaml-cpp"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++23"
-	staticruntime "on"
+	staticruntime "Off"
 
 	targetdir ("Binaries/" .. outputdir .. "/%{prj.name}")
 	objdir ("Binaries-Int/" .. outputdir .. "/%{prj.name}")
